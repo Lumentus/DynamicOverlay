@@ -8,13 +8,23 @@
 
 import SwiftUI
 
-struct ActivatedOverlayArea: Equatable {
+struct ActivatedOverlayArea: Equatable, CustomStringConvertible {
 
     private struct Spot: Equatable {
         let frame: CGRect
     }
 
     private var spots: [Spot]
+    private var date: Date
+
+    private init(spots: [Spot]) {
+        self.spots = spots
+        self.date = Date()
+    }
+
+    var description: String {
+        return "\(spots) from \(date.timeIntervalSince1970)"
+    }
 
     mutating func merge(_ handle: ActivatedOverlayArea) {
         spots += handle.spots

@@ -21,7 +21,8 @@ struct DynamicOverlayScrollViewProxy: Equatable {
     }
 
     func findScrollView(in space: UIView) -> UIScrollView? {
-        space.findScrollView(in: area, coordinate: space)
+        print("test: \(area)")
+        return space.findScrollView(in: area, coordinate: space)
     }
 }
 

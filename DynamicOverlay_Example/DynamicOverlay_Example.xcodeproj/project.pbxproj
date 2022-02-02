@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40BD2CC227A7CC2000A82D55 /* DrivingScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD2CC127A7CC2000A82D55 /* DrivingScrollViewTest.swift */; };
 		E73A7CE9262B2A8400959344 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73A7CE8262B2A8400959344 /* MapView.swift */; };
 		E73A7CEC262B2AA400959344 /* MapRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73A7CEB262B2AA400959344 /* MapRootView.swift */; };
 		E741EE732576B10D0073FF6B /* DynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E741EE722576B10D0073FF6B /* DynamicOverlay.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		40BD2CC127A7CC2000A82D55 /* DrivingScrollViewTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrivingScrollViewTest.swift; sourceTree = "<group>"; };
 		E73A7CE8262B2A8400959344 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		E73A7CEB262B2AA400959344 /* MapRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRootView.swift; sourceTree = "<group>"; };
 		E741EE722576B10D0073FF6B /* DynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,7 @@
 		E73A7CEA262B2A8B00959344 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				40BD2CC127A7CC2000A82D55 /* DrivingScrollViewTest.swift */,
 				E73A7CEB262B2AA400959344 /* MapRootView.swift */,
 				E73A7CE8262B2A8400959344 /* MapView.swift */,
 				E750EE4D262B2B4800E79C6B /* OverlayView.swift */,
@@ -224,6 +227,7 @@
 				E750EE63262C463100E79C6B /* MapApp.swift in Sources */,
 				E750EE96262D772700E79C6B /* OverlayBackgroundView.swift in Sources */,
 				E750EE9C262D7C9000E79C6B /* BackdropView.swift in Sources */,
+				40BD2CC227A7CC2000A82D55 /* DrivingScrollViewTest.swift in Sources */,
 				E750EE51262C30F600E79C6B /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
