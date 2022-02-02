@@ -58,12 +58,12 @@ struct DrivingScrollViewTest: View {
                     .dynamicOverlayBehavior(behavior)
                     .ignoresSafeArea(.all, edges: .bottom)
             }.onAppear {
-                print("test content appeared")
+                print("content appeared")
             }
         } else {
             Color.blue
                 .onAppear {
-                    print("test placeholder visible")
+                    print("placeholder appeared")
                 }
         }
     }

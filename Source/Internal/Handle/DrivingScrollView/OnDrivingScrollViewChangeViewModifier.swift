@@ -14,7 +14,7 @@ private struct OnDrivingScrollViewChangeViewModifier: ViewModifier {
 
     func body(content: Content) -> some View {
         content.onPreferenceChange(DynamicOverlayScrollViewProxyPreferenceKey.self, perform: { value in
-            print("test2 \(value)")
+            print("preferenceChange: \(value)")
             handler(DynamicOverlayScrollViewProxy(area: value))
         })
     }
